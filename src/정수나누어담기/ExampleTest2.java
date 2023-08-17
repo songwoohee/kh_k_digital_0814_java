@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class ExampleTest2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("100의 자리 정수 입력 : "); //236
+        System.out.print("100의 자리 정수 입력 : "); //263
         int num = sc.nextInt();
         int a = num / 100; // 100으로 나눈 몫을 구함
         int b = (num % 100) / 10; // 100으로 나눈 나머지에서 다시 10으로 나눈 몫을 취함
-        int c = num % 10 ; // 23번 몫을 취해진 다음 6이 나머지
+        int c = num % 10 ; // 26번 몫을 취해진 다음 6이 나머지
         System.out.println("100의 자리 : " + a + ", 10의 자리 : " + b + ", 1의 자리: " + c);
     }
 }
