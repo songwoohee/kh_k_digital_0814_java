@@ -3,6 +3,7 @@ package 배열의복사;
 // 배열의 크기를 변경 하기 위해서는 더 큰 배열을 만들고 기존 배열의 데이터를 옮겨 담아야 한다.
 // arraycopy() : System.arraycopy(Object src(시작), int srcPos(시작위치), Object dest(목적지), int destPos(어디서부터 채워넣을거냐), int length);
 // copyOF() : 배열을 원하는 길이 만큼 새로운 배열로 복사
+// contains : 문자열에서 특정 문자열이 포함되어 있는지 여부 확인
 
 import java.util.Arrays;
 
