@@ -7,7 +7,7 @@ public class CarTest {
     String year;
     int maxSpeed;
 
-    public CarTest(String modelName, String manufacture, String color) {
+    public CarTest(String  modelName, String manufacture, String color) {
         this.modelName = modelName;
         this.manufacture = manufacture;
         this.color = color;
