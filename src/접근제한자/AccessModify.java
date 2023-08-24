@@ -10,10 +10,10 @@ public class AccessModify {
 //        restrictor.busan();  // protected 메소드에 대한 접근, 같은 패키지 이거나 상속 관계가 있으면 접근 가능.
 //        restrictor.daegu();  // default 메소드에 대한 접근, 같은 패키지 내에서만 접근 가능
 //      //  restrictor.incheon(); > private 메소드에 대한 접근으로 사용 불가 (같은 클래스 안에서만 사용 가능하나 클래스가 달라 접근 허용 안됨)
-        Child child = new Child("엔지니어");
-        System.out.println(child.getName());
-        System.out.println(child.getMoney());
-        System.out.println(child.getAddr());
+//        Child child = new Child("엔지니어");
+//        System.out.println(child.getName());
+//        System.out.println(child.getMoney());
+//        System.out.println(child.getAddr());
 
 
     }
@@ -24,9 +24,9 @@ class Child extends Parent {
     public Child (String jobs) {
         this.jobs = jobs;
     }
-    public String getMoney() {
-        return money;
-    }
+//    public String getMoney() {
+//        return money;
+//    }
     public String getName() {
         return name;
     }

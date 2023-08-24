@@ -17,5 +17,6 @@ public class ConstrucEx {
         Car tucson = new Car("투싼","gray",210,170);
         tucson.carInfo();
 
+
     }
 }
