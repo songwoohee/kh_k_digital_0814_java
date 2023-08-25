@@ -23,3 +23,4 @@ class Audio extends Product {
         this.bonusPoint = 12;
     }
 }
+

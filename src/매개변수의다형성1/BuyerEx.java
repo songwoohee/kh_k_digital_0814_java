@@ -10,28 +10,27 @@ public class BuyerEx {
         Audio audio = new Audio();
         Scanner sc = new Scanner(System.in);
 
-        while(true) {
+        while (true) {
             System.out.print("[1]TV [2]Computer [3]Audio [4]quit : ");
             int sel = sc.nextInt();
 
             switch (sel) {
-                case 1 :
+                case 1:
                     buyer.buy(tv);
                     buyer.viewInfo();
                     break;
-                case 2 :
+                case 2:
                     buyer.buy(computer);
                     buyer.viewInfo();
                     break;
-                case 3 :
+                case 3:
                     buyer.buy(audio);
                     buyer.viewInfo();
                     break;
-                case 4 :
+                case 4:
                     return;
-                default :
+                default:
                     System.out.println("해당 제품이 없습니다.");
             }
         }
     }
-}
