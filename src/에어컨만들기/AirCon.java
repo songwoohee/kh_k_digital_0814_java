@@ -40,7 +40,7 @@ public class AirCon {
         System.out.println("현재 온도 : " + currTemp);
         System.out.println("설정 온도 : " + setTemp);
         System.out.println("히터 : " + heaterStr);
-        System.out.println("클러 : " + coolerStr);
+        System.out.println("쿨러 : " + coolerStr);
         System.out.println("바람세기 : " + windStr[windStep]);
     }
     public void setAirconState() {
