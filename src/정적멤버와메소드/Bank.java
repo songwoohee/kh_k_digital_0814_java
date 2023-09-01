@@ -4,7 +4,7 @@ public class Bank {
     private static int count = 0; // 정적 필드, 객체로 생성 되지 않음
     private int account; // 계좌
     private  String bank; // 은행 이름
-    Bank(String name, int account) {
+    public Bank(String name, int account) {
         count++;
         this.bank = name;
         this.account = account;

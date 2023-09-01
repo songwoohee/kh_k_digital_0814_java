@@ -3,7 +3,6 @@ package 홀수짝수나누어담기;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 /*
 [문제]
 7개의 정수를 입력 받는 메서드 (0이 들어 올 수 있음)
