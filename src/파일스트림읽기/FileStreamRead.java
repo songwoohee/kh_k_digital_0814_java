@@ -17,5 +17,6 @@ public class FileStreamRead {
             String line = sc.nextLine();  // 문자열을 줄바꿈 기준으로 읽음
             System.out.println(line);
         }
+
     }
 }
